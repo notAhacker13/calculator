@@ -81,3 +81,23 @@ center
     margin-top:30px;
     margin-bottom:-30px;
 }
+@media only screen and (min-width: 0px) and (max-width:420px)
+{
+    .calc
+    {
+        width:300px;
+    }
+    .calc .buttons button
+    {
+        height:60px;
+        width:60px;
+    }
+    #cal
+    {
+        width:128px;
+    }
+    center
+    {
+        margin-bottom:-80px;
+    }
+}
